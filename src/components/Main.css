@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url('https://aukerajewellery.com/cdn/shop/collections/Aukera_Collections_Banner_-_Desktop_-02.jpg?v=1692782962');
+    }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+
+  }
+  
+  .header span {
+    font-size: 16px;
+    font-weight: bold;
+    color:black;
+  }
+  
+  .tnc-link {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .refer-section h2{
+   color: rgb(245, 226, 220);
+  }
+  .refer-section {
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+    color:rgb(204, 169, 157);
+  }
+
+  
+  .reward-box {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .reward, .deal {
+    text-align: center;
+    background-color: #f0f8ff;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .refer-btn {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .offers-section {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .offer-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .offer {
+    background-color: rgb(204, 169, 157);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 20%;
+    height:50%;
+    
+  } 
+ #Pa{
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+  }
+
+  .offer img{
+    width: 50%;
+    height: 50%;
+  }
+  
+
+  .offer p{
+    font-size: 25px;
+  }
+  

@@ -1,0 +1,132 @@
+/* Admin.css */
+
+body {
+  font-family: Arial, sans-serif; /* Set a nice default font */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.head {
+  background-color: #343a40; /* Dark gray header */
+  color: white; /* White text color */
+  padding: 5px; /* Padding around header */
+  text-align: center; /* Center the text */
+}
+
+.Admin {
+  margin: 20px; /* Margin around the main content */
+  padding: 20px; /* Padding inside the content */
+  background-color: rgb(204, 169, 157);; /* White background for the main content */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  display: flex; /* Enable flexbox */
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center; /* Center align items horizontally */
+}
+
+h1, h2, h3 {
+  margin: 10px 0; /* Margin for headings */
+}
+
+.Admin button {
+  background-color: black; /* Set button color to #337ab7 */
+  color: white; /* White text */
+  border: none; /* Remove default border */
+  padding: 10px 15px; /* Padding inside buttons */
+  border-radius: 20px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  margin-top: 20px; /* Space above button */
+  width:300px;
+}
+
+.Admin button:hover {
+  background-color: #d0d9e1;  /* Darker blue on hover */
+}
+hr {
+  margin: 20px 0; /* Space around horizontal rule */
+  border: none; /* Remove default border */
+  border-top: 1px solid #dee2e6; /* Light gray top border */
+}
+
+#promo {
+  font-size: 35px;
+}
+
+.share-icons {
+  display: flex;
+  justify-content: center; /* Centers the icons horizontally */
+  align-items: center; /* Centers them vertically in the container */
+  gap: 20px; /* Adds space between icons */
+  margin-top: 20px; /* Adds space above the icons */
+}
+
+#icon {
+  font-size: 40px; /* Size of the icons */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+#icon:hover {
+  transform: scale(1.2); /* Makes the icon slightly larger on hover */
+  color: #007bff; /* Changes color on hover (you can modify this color) */
+}
+
+
+.referral-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure popup is on top */
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  width: 50%;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  color:black;
+}
+
+.promo-code-display {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.share-icons {
+  margin-top: 1rem;
+}
+
+.share-icons i {
+  font-size: 2rem;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.share-icons i:hover {
+  color: #007bff;
+}
+
+
