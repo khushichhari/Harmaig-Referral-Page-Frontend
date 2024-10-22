@@ -1,0 +1,33 @@
+.User {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+.User input {
+    padding: 10px;
+    margin: 10px;
+    width: 40%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 200px;
+    font-size: 18px;
+  }
+  
+  .success {
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  .head{
+    background-color: black;
+    padding: 5px;
+  }

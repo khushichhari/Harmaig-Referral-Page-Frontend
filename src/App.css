@@ -1,0 +1,143 @@
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.header span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.tnc-link {
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.refer-section {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.reward-box {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.reward, .deal {
+  text-align: center;
+  background-color: #f0f8ff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.refer-btn {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.invite-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.invite-option button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.offers-section {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.offer-box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.offer {
+  background-color: #e0f7fa;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 30%;
+} */
+
+
+
+
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.admin-section, .user-section {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}
+
+h2 {
+  color: #007bff;
+}
